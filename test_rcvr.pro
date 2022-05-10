@@ -2,6 +2,7 @@ QT       += core gui opengl network
 LIBS += -lopengl32 #glu32.lib kernel32.lib user32.lib gdi32.lib
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 6): QT += openglwidgets
 
 CONFIG += c++11
 
